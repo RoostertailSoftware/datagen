@@ -6,5 +6,5 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.scss']
 })
 export class AppComponent {
-  public title = 'datagen';
+  public title = 'Data Generator v2.0';
 }

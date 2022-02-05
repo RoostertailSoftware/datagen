@@ -4,7 +4,6 @@ import { CommonModule } from '@angular/common';
 import { BrowserModule } from '@angular/platform-browser';
 import { BrowserAnimationsModule } from "@angular/platform-browser/animations";
 
-
 import { AngularMaterialModule } from "./angular-material.module";
 import { HttpClientModule } from '@angular/common/http';
 import { FormsModule, ReactiveFormsModule } from "@angular/forms";
@@ -19,13 +18,14 @@ let _imports: any[] = [
   ReactiveFormsModule
 ];
 
-let _schemas: any[] =[ ]
+let _schemas: any[] =[ 
+
+]
 
 /* -- `declare` components here -- */
 
 import { AppComponent,
  } from './components' ;
-
 
 let _declarations: any[] = [
   AppComponent,
