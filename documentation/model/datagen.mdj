@@ -17,8 +17,86 @@
 					"_parent": {
 						"$ref": "AAAAAAFF+qBWK6M3Z8Y="
 					},
-					"name": "Main",
-					"defaultDiagram": true
+					"name": "Start Here",
+					"defaultDiagram": true,
+					"ownedViews": [
+						{
+							"_type": "HyperlinkView",
+							"_id": "AAAAAAF+x+JCmTcJRt8=",
+							"_parent": {
+								"$ref": "AAAAAAFF+qBtyKM79qY="
+							},
+							"model": {
+								"$ref": "AAAAAAF+x+JCmDcHs2U="
+							},
+							"subViews": [
+								{
+									"_type": "LabelView",
+									"_id": "AAAAAAF+x+JCmTcKCWA=",
+									"_parent": {
+										"$ref": "AAAAAAF+x+JCmTcJRt8="
+									},
+									"font": "Arial;13;0",
+									"left": 244.39453125,
+									"top": 192,
+									"width": 72.99169921875,
+									"height": 13,
+									"text": "SD Engine 1"
+								},
+								{
+									"_type": "LabelView",
+									"_id": "AAAAAAF+x+JCmTcLIoQ=",
+									"_parent": {
+										"$ref": "AAAAAAF+x+JCmTcJRt8="
+									},
+									"font": "Arial;13;1",
+									"left": 212,
+									"top": 192,
+									"width": 23.39453125,
+									"height": 13,
+									"text": "link"
+								}
+							],
+							"font": "Arial;13;0",
+							"left": 207,
+							"top": 187,
+							"width": 116.38623046875,
+							"height": 23,
+							"nameLabel": {
+								"$ref": "AAAAAAF+x+JCmTcKCWA="
+							},
+							"typeLabel": {
+								"$ref": "AAAAAAF+x+JCmTcLIoQ="
+							}
+						},
+						{
+							"_type": "UMLTextView",
+							"_id": "AAAAAAF+x+Jo5zcSGHM=",
+							"_parent": {
+								"$ref": "AAAAAAFF+qBtyKM79qY="
+							},
+							"font": "Arial;13;0",
+							"showShadow": false,
+							"left": 160,
+							"top": 120,
+							"width": 99.5908203125,
+							"height": 25,
+							"autoResize": true,
+							"text": "State Diagrams",
+							"wordWrap": false
+						}
+					]
+				},
+				{
+					"_type": "Hyperlink",
+					"_id": "AAAAAAF+x+JCmDcHs2U=",
+					"_parent": {
+						"$ref": "AAAAAAFF+qBWK6M3Z8Y="
+					},
+					"name": "Hyperlink1",
+					"reference": {
+						"$ref": "AAAAAAF+vNfRYNGfZHM="
+					}
 				}
 			]
 		},
@@ -36,7 +114,7 @@
 					"_parent": {
 						"$ref": "AAAAAAF+vNfRX9Gd03w="
 					},
-					"name": "StatechartDiagram1",
+					"name": "SD Engine 1",
 					"ownedViews": [
 						{
 							"_type": "UMLStateView",
@@ -3452,7 +3530,7 @@
 									"visible": false,
 									"font": "Arial;13;0",
 									"left": 405.858642578125,
-									"top": 212,
+									"top": 164,
 									"width": 25.28271484375,
 									"height": 13,
 									"alpha": 2.356194490192345,
@@ -3471,7 +3549,7 @@
 									"visible": false,
 									"font": "Arial;13;0",
 									"left": 408.5,
-									"top": 202,
+									"top": 154,
 									"height": 13,
 									"alpha": 2.356194490192345,
 									"distance": 35
@@ -3488,7 +3566,7 @@
 									"visible": false,
 									"font": "Arial;13;0",
 									"left": 418.5,
-									"top": 241,
+									"top": 193,
 									"height": 13,
 									"alpha": -2.356194490192345,
 									"distance": 20
@@ -3497,7 +3575,7 @@
 							"font": "Arial;13;0",
 							"containerChangeable": true,
 							"left": 424,
-							"top": 224,
+							"top": 176,
 							"width": 20,
 							"height": 20,
 							"nameLabel": {
@@ -3531,8 +3609,8 @@
 									},
 									"visible": false,
 									"font": "Arial;13;0",
-									"left": 613,
-									"top": 225,
+									"left": 493,
+									"top": 163,
 									"height": 13,
 									"alpha": 1.5707963267948966,
 									"distance": 15,
@@ -3552,8 +3630,8 @@
 									},
 									"visible": null,
 									"font": "Arial;13;0",
-									"left": 598,
-									"top": 225,
+									"left": 493,
+									"top": 148,
 									"height": 13,
 									"alpha": 1.5707963267948966,
 									"distance": 30,
@@ -3573,8 +3651,8 @@
 									},
 									"visible": false,
 									"font": "Arial;13;0",
-									"left": 642,
-									"top": 226,
+									"left": 493,
+									"top": 193,
 									"height": 13,
 									"alpha": -1.5707963267948966,
 									"distance": 15,
@@ -3591,7 +3669,7 @@
 							"tail": {
 								"$ref": "AAAAAAF+vT0lUB4Ssgs="
 							},
-							"points": "443:232;628:232;628:199",
+							"points": "443:184;544:184",
 							"showVisibility": true,
 							"nameLabel": {
 								"$ref": "AAAAAAF+vT00Kh4kZcw="
