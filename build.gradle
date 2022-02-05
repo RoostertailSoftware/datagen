@@ -5,15 +5,19 @@ plugins {
 }
 
 group = 'com.roostertailsoftware'
-version = '0.0.1-SNAPSHOT'
+version = '0.1.0'
 sourceCompatibility = '11'
 
 repositories {
 	mavenCentral()
 }
 
+jar {
+	enabled = false
+};
+
 dependencies {
-	implementation 'org.springframework.boot:spring-boot-starter-data-mongodb'
+	// implementation 'org.springframework.boot:spring-boot-starter-data-mongodb'
 	implementation 'org.springframework.boot:spring-boot-starter-web'
 	testImplementation 'org.springframework.boot:spring-boot-starter-test'
 }
