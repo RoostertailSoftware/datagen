@@ -1,6 +1,11 @@
 # datagen
 Version 2.0 DataGenerator
 
-## Documentation is in the ... well `documentation` directory.
+visit the [documetation main index file](./documentation/index.md) file.  
 
- visit the [documetation README file](./documentation//README.md) Re
+I call all the main files `index.md` so look for those if nothing else.  They will lead you down the rabbit hole.
+
+ ```text
+ It's a trap!
+ -- Admiral Ackbar
+ ```
