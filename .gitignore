@@ -1,5 +1,9 @@
+
 .gradle
+
 build/
+!documentation/build/
+
 tmp/
 
 **/.vscode
