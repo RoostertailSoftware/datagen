@@ -24,15 +24,15 @@ This document should keep topic areas for the different parts of the system.  Up
     - discussion on the state machine of the engine
     - discussion on how the engine will address heirarchy file creation
     * Any model of the Engine statemachine, etc are kept in the model directory inthe StarUML file
-1. [misc](./misc/livingSpec.md) 
+1. [Misc](./misc/livingSpec.md) 
     - a document which was first used to thing thru this project. The output of that is in the md and .pdf. 
     - Use these with caution as they are both out of date as of 06 Feb 2022.  
-1. [model](./model/Model-Documentation.md) 
+1. [Model](./model/index.md) 
     - different modeling diagrams for understanding the system more
-1. [Requirements](./req/requirements.md)
+1. [Requirements](./requirements/requirements.md)
     - Trying to build a legit set of requirements
     - These will also be reflected in a SysML requirements diagram so, stay tuned.
-1. [standards](./standards/index.md)
+1. [Standards](./standards/index.md)
     - Different standards for documentation, coding, UI, testing etc.  
     - I want things a certain way or -- at the very least and consistent way on a project.
 1. [Testing](./testing/index.md)
