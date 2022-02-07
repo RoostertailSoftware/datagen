@@ -1,7 +1,11 @@
 # Coding Standards
 
-## Javascript - aka Serverside engine
 
-## Typescript - aka UI / Angular
+## database
+* 
 
-## Java - API Springboot
+## API
+
+## Server side
+
+## UI

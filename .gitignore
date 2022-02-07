@@ -4,7 +4,7 @@
 build/
 !documentation/build/
 
-bin
+# bin
 
 tmp/
 
