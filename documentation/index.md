@@ -4,7 +4,7 @@
 This document is an index into the different directories in the documentation space.
 
 ## Definitions
-The [definitions](./definitions.md) document is kepts in this directory and not in a sub directory.  
+The [definitions](./definitions.md) document is kepts in main document directory and not in a subdirectory.  
 ##### **Note**: Keeping this document and the requirements and all other documents in sync and up to date is a pain. If you find that a definition is misspelled, incorrectly used then fix it.  But you better be right.
 
 ## Documentation Index
@@ -27,7 +27,7 @@ This document should keep topic areas for the different parts of the system.  Up
 1. [Misc](./misc/livingSpec.md) 
     - a document which was first used to thing thru this project. The output of that is in the md and .pdf. 
     - Use these with caution as they are both out of date as of 06 Feb 2022.  
-1. [Model](./model/index.md) 
+1. [Model and Design documents](./model/index.md)
     - different modeling diagrams for understanding the system more
 1. [Requirements](./requirements/requirements.md)
     - Trying to build a legit set of requirements
